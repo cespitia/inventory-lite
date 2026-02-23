@@ -1,4 +1,5 @@
 using InventoryLite.Api.Data;
+using InventoryLite.Api.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,8 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    
+builder.Services.AddScoped<ProductService>();
     
 var app = builder.Build();
 

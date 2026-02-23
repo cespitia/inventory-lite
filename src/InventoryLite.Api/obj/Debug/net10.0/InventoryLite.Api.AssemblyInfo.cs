@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryLite.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f42f17f8a4e83740087640f7b39ee7a64157679")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb485efdd7ce5d1a5aec1faef46c90a8aaddde8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryLite.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryLite.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
