@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/InventoryLite.Api/InventoryLite.Api.csproj" />
+  </Folder>
+</Solution>
