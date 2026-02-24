@@ -15,6 +15,7 @@ cd src/InventoryLite.Api
 dotnet restore
 dotnet ef database update
 dotnet run
+```
 
 ## Screenshots
 
